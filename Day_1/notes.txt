@@ -1,0 +1,8 @@
+today jan 22 i officially start learning cpp im gonna be using learncpp.com and prob some youtube my goal is to code daily and just have fun with what i do
+
+i went thru intro to c and cpp and then an intro to how to build a program now on the ide step which i dont want to use codeblocks and i want to use VIM like a chad and move on to nvim just now 
+
+today my goal is to have a working hello c++ program lol
+let the coding begin
+
+
