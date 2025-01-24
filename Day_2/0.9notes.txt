@@ -1,0 +1,21 @@
+a build config is a collection of settings that determines how ur ide will build ur project
+
+When you create a new project in your IDE, most IDEs will set up two different build configurations for you: a release configuration, and a debug configuration.
+
+the debug config is designed to help you debug your program and is generally the one you will use writing ur programs this config is slower and larger but easy to debug
+
+the realease config is designed to be used when releasing your program to the public this version is typically optimized for size and performance and doesnt conetain extra debugging info 
+
+Use the debug build configuration when developing your programs. When you’re ready to release your executable to others, or want to test performance, use the release build configuration.
+
+
+because im not gonna be using a ide per say ill use vim and g++ compiler i will just change the command i use for build i will now list the ones to use in which scenario
+
+DEBUG:
+$g++ -ggdb -O0 -o hello_debug hello.cpp
+-ggdb: generates info for use with a debugger like gdb
+-O0: disables all optimizations (ideal for debug)
+-o hello_debug: specifies the output filename as hello_debug
+
+
+
