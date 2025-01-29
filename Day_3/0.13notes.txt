@@ -1,0 +1,32 @@
+$ g++ -ggdb -O0 -o PrintStandardDebug PrintStandard.cpp 
+PrintStandard.cpp: In function ‘int main()’:
+PrintStandard.cpp:33:29: error: ‘numStandards’ was not declared in this scope; did you mean ‘numStandard’?
+   33 |         for (int i = 0; i < numStandards; ++i)
+      |                             ^~~~~~~~~~~~
+      |                             numStandard
+PrintStandard.cpp:38:72: error: expected ‘;’ before string constant
+   38 |                                << "language standard code " << standard "L)\n";
+      |                                                                        ^~~~~~~
+      |                                                                        ;
+PrintStandard.cpp:45:73: error: expected ‘;’ before string constant
+   45 |                                 << "language standard code " << standard "L)\n";
+      |                                                                         ^~~~~~~
+      |                                                                         ;
+zaid@debian:~/Learning/Cpp/Day_3$ vim PrintStandard.cpp
+zaid@debian:~/Learning/Cpp/Day_3$ g++ -ggdb -O0 -o PrintStandardDebug PrintStandard.cpp 
+PrintStandard.cpp: In function ‘int main()’:
+PrintStandard.cpp:38:72: error: expected ‘;’ before string constant
+   38 |                                << "language standard code " << standard "L)\n";
+      |                                                                        ^~~~~~~
+      |                                                                        ;
+PrintStandard.cpp:45:73: error: expected ‘;’ before string constant
+   45 |                                 << "language standard code " << standard "L)\n";
+      |                                                                         ^~~~~~~
+      |                     
+
+
+i followed the 0.13 code example to get the language standard of your compiler and faced my first 2 bugs that i successfully dealt with and then created a PrintCPPStandardDebug executable.
+
+its funny cause my goal was to use arrays and loops today for cpp and i did although the code was handed to me it was nice to see how im gonna be using those tools in the future.
+
+                                

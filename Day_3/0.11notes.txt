@@ -1,0 +1,4 @@
+add the -Werror to your compiler cmd and then it will treat warnings in your code as errors and break the code until the warning is fixed 
+
+So, if you want stricter code quality but still want the program to compile with warnings, don't use -Werror. If you want to force yourself to fix all warnings before compiling, then use -Werror.
+
