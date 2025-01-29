@@ -17,5 +17,19 @@ $g++ -ggdb -O0 -o hello_debug hello.cpp
 -O0: disables all optimizations (ideal for debug)
 -o hello_debug: specifies the output filename as hello_debug
 
+RELEASE:
+$g++ -02 -DNDEBUG -o hello_release hello.cpp
+-O2: Enables standard optimizations for performance.
+-DNDEBUG: Disables debugging-related code (e.g., assert() statements).
+-o hello_release: Specifies the output filename as hello_release.
 
+TESTING:
+g++ -O3 -DNDEBUG -o hello_release_o3 hello.cpp
+
+Explanation of Options
+-O0: No optimization (debug builds).
+-O2: Default optimization for release builds (safe and effective).
+-O3: Aggressive optimization (may improve performance but could increase compile time or cause unexpected behavior in rare cases).
+-ggdb: Includes debugging symbols to debug with tools like gdb.
+-DNDEBUG: Disables calls to assert() and other debugging-specific macros.
 
