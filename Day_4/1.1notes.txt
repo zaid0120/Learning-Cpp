@@ -38,7 +38,23 @@ Line 5 - the first statement in the function main() and will be executed first. 
 
 Line 6 - a return statement when an executable program finishes running the program sends value back to the operating system in order to indicate whether it ran successfully or not. this particular return statement returns the int value 0 to the operating system which means everything is ok . this is the last statement that gets executed.
 
+SYNTAX AND SYNTAX ERRORS
+
+rules about how your programs must be constructed in order to be valid. when you compile your program the compiler is responsible for making sure your program follows syntax.
+
+lets make a failing program by removing the ";".
+
+we get an error on line 6 saying it was expecting a semi colon.
+
+zaid@debian:~/Learning/Cpp/Day_4$ g++ -ggdb -O0 -o fhello_debug fhello.cpp
+fhello.cpp: In function ‘int main()’:
+fhello.cpp:5:31: error: expected ‘;’ before ‘return’
+    5 |    std::cout << "Hello world!"
+      |                               ^
+      |                               ;
+    6 |    return 0;
+      |    ~~~~~~                      
+zaid@debian:~/Learning/Cpp/Day_4$ 
 
 
-
-
+wouldnt even compile as expected. 

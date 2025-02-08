@@ -1,0 +1,38 @@
+Quiz time
+
+The following quiz is meant to reinforce your understanding of the material presented above.
+
+Question #1
+
+What is a statement?
+A Statement is an instructin in a computer program that tells the computer to perform an action.
+
+Question #2
+
+What is a function?
+A function is a collection of statements that executes sequentially.
+
+Question #3
+
+What is the name of the function that all programs must have?
+All programs must have a main() function or it wont be able to link. 
+
+Question #4
+
+What happens when the program is run?
+The statements inside of main() are executed in sequential order.
+
+Question #5
+
+What symbol are statements in C++ often ended with?
+The symbol that most statements are ended with in C++ is a semicolon ";".
+
+Question #6
+
+What is a syntax error?
+A syntax error is a compiler error that occurs at compile-time when your program violates the grammar rules of the C++ language.
+
+Question #7
+
+What is the C++ Standard Library?
+A library file is a collection of precompiled code that has been "packaged up" for reuse in other programs. The C++ Standard Library is a library that ships with C++. It contains additional functionality to use in your programs.
