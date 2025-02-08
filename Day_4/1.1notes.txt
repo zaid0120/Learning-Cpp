@@ -1,0 +1,44 @@
+1.1 STATEMENTS AND STRUCTURE
+
+a STATEMENT is a type of instruction that causes the program to perform some sort of action. they are the most common type of instruction in cpp. when we want to have our program do something we typically use statements.
+
+types of statements:
+    Declaration statements
+    Jump statements
+    Expression statements
+    Compound statements
+    Selection statements (conditionals)
+    Iteration statements (loops)
+    Try blocks
+apparently by the time were through with the tutorial we will know these but i have some familiarity already
+
+Every C++ program must have a special function named main(). when running the program all the statements in main will be executed in sequential order.
+
+a FUNCTION is a collection of statements (lines of code) that get executed sequentially. they are typically written to do a specific job like calculateGrade() will calculate a students grade in a school system or whatever. fuctions are used for modularity in ur code so you can reuse code and reduce redundancy.
+
+------ DISECTING HELLO WORLD --------
+#include <iostream>
+
+int main()
+{
+   std::cout << "Hello world!";
+   return 0;
+}
+
+
+Line 1 - special type of line called a preprocessor directive. #include <iostream> means we would like to use the contents of the iostream library from the c++ standard library that allows us to read and write text from/to the console. not having the line would error line 5 because the compiler wouldnt recognize std::cout.
+
+Line 2 - literally a blank space for readability of code
+
+Line 3 - we are defining a function named main() and every c++ needs a main function or it will fail to link. this function will produce a value of type int.
+
+Line 4 & 7 - parenthesis lines lol these lines will tell the compiler which lines are part of the main() function. this is called the function body.
+
+Line 5 - the first statement in the function main() and will be executed first. std::cout (cout - "Character Output") and the << operator allows us to display info on the console. In this case "Hello World". Creates the visible output for the program.
+
+Line 6 - a return statement when an executable program finishes running the program sends value back to the operating system in order to indicate whether it ran successfully or not. this particular return statement returns the int value 0 to the operating system which means everything is ok . this is the last statement that gets executed.
+
+
+
+
+
