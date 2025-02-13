@@ -35,14 +35,14 @@ int main ()
 		if (standard == stdCode[i])
 		{
 			std::cout << "Your compiler is using " << stdName[i]
-			       << "language standard code " << standard << "L)\n";
+			       << " language standard code " << standard << "L)\n";
 			break;
 		}
 
 		if (standard < stdCode[i])
 		{
 			std::cout << "Your compiler is using a preview of " << stdName[i]
-				<< "language standard code " << standard << "L)\n";
+				<< " language standard code " << standard << "L)\n";
 			break;
 		}
 
