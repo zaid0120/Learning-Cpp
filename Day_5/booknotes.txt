@@ -1,0 +1,3 @@
+helooo my cpp dudes and dudettes so im still gonna be using learn cpp but i have been introduced to a nice source called C++ A Beginners Guide im on 1.4 where today i jotted down some notes as well as read a section that section being a first simple program its very similar to what ive already been doing soon ill get into some basic projects like a calculator or something like that.
+
+for now tho just be doing learn cpp and a beginners guid i am leaning towards the good ol book learning style.
