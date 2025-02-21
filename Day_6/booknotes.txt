@@ -1,0 +1,3 @@
+again tonight alot of my notes are written on paper im planning on looking at variables from learn cpp's view too tonight so there might be some more notes coming in soon
+
+i went through using variables the most it told me was an integer value can range from -32767 to 32767 i know the website will for sure have more to share about variables.
