@@ -1,5 +1,0 @@
-we are so back no more school for the summer time to lock in
-was looking over how to use operators so we are gonna start with 2 demos
-
-from the text book got git working over ssh keys so i can push and stuff over linux easier than using PAT Tokens
-

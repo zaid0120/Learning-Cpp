@@ -1,0 +1,8 @@
+im gonna continue today with 1.7 reading input from the keyboard so im gonna start with some notes ive been doing them on paper which is just for me to remember better
+
+theres gonna be some code snippets and a project coming soon!
+
+1.7 is a longer chapter after introducing cin and \n it continues to introduce the double data type whihc is basically just a decimal data type
+
+i made the carriage return demo and added the actual triangle area calculator.
+
