@@ -16,7 +16,7 @@ int main()
     ladderHeight = 7;
 
     // Send the string "The height of the ladder is " to the standard output using std::cout
-    cout << "The height of the ladder is "
+    cout << "The height of the ladder is ";
     // Send the variable ladderHeight to the standard output using std::cout
     cout << ladderHeight;
 
