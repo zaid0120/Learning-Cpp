@@ -1,0 +1,4 @@
+doing 1.8 chapter on control statements focussing on if statement and for loops
+looked at relational operators 
+
+about to start doing some demos
