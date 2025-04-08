@@ -1,0 +1,5 @@
+finished with 1.8 if and for loops 1.9 is gonna focus on using blocks of code and do the second project which is just feet to meters with a loop in table format
+
+looking forward gonna try and get through functions as well.
+
+1.9 we will be writing code using code blocks (code between curly braces to logically link 2 or more statements. and the program is to prevent division by zero.
