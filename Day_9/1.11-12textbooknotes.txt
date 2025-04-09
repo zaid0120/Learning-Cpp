@@ -1,0 +1,3 @@
+done the texbook notes 2 very short chapters today just explaining the c++ std lib and identifiers 
+
+i think thers 3 projects without guidance that i will do and answer like the end of module quiz that quiz includes the the projects so yaaa time to code easy stuff but we will see.
