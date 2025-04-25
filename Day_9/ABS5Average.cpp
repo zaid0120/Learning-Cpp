@@ -11,26 +11,18 @@
 using namespace std;
 
 int main() {
-	double v1, v2, v3, v4, v5;
-	double avg;
-
-	cout << "Please enter value 1: ";
-	cin >> v1;
-	v1 = abs(v1);
-	cout << "Please enter value 2: ";
-	cin >> v2;
-	v2 = abs(v2);
-	cout << "Please enter value 3: ";
-	cin >> v3;
-	v3 = abs(v3);
-	cout << "Please enter value 4: ";
-	cin >> v4;
-	v4 = abs(v4);
-	cout << "Please enter value 5: ";
-	cin >> v5;
-	v5 = abs(v5);
+	double v1, avg, absAmount;
+	int i;
 	
-	avg = (v1+v2+v3+v4+v5) / 5;
+	for (i = 1; i <= 5; i++) {
+		cout << "Please enter value "<< i <<": ";
+		cin >> v1;
+		v1 = abs(v1);
+		avg = avg + v1;
+	}
+
+	avg = avg/5;
+	
 
 	cout << "The absolute average of all the values is: " << avg << "\n";
 
