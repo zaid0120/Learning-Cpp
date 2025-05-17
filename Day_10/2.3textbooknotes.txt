@@ -1,0 +1,1 @@
+2.3 just talks about variables a lil more and shows a new way of initializing the variables as well as dynamic initialization which was like assigning an expression to the variable.
