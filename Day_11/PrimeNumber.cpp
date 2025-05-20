@@ -20,6 +20,7 @@ int main() {
 		for (j = 2; j < i; j++) {
 			if  (i%j == 0) {
 				isprime = false;
+				break;
 			}
 		}	
 
