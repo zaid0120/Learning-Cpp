@@ -1,0 +1,7 @@
+this chapter is short talking about the assignment operator in C++ "=" assigns the value on the right side of the equal sign to variable on the left side of the equal sign.
+
+this chapter also bring up chain assignment which is something like this:
+
+x = a = z = 100;
+
+all values set to 100.

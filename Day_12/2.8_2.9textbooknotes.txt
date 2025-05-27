@@ -1,0 +1,9 @@
+2.8 and 2.9 talk about conversion within assignment and within expression 
+
+conversion with assignment u can assign a different type to a different type variable and it would match the type of what its assigned to. if u assign an int to a double it becomes the decimal version. if u assign an int to a char it will match if its between -128 and 127 otherwise remove the all neccesary high order bits and then match. if the target type is not large enough to store result a garbage value will result.
+
+in an expression first all char or short ints are automatically elevated to int this is called integral promotion.
+
+next all operands are converted up to their largest type of operand which is called type promotion
+
+values that are type bool are converted into the ints either 0 or 1; false or true when used in an integer expression.

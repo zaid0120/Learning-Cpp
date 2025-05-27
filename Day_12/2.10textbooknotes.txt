@@ -1,0 +1,10 @@
+2.10 talks about casts 
+
+in C++ u can force an expression to be a sprecific type by using a cast 
+A cast is an explicit type conversion operator
+C++ has 5 different types of casts
+its most general purpose is to transform any type into another type 
+
+(type) expression;
+or 
+(float) x/2;

@@ -1,0 +1,1 @@
+in chapter 2.4 we learned about the arithmetic operators addition, subtraction, multiplication, division, modulus, increment and decrement and their presedence within an expression. +, -, *, /, %, ++, --; Also learned about the prefix and postfix forms of the increment and decrement.

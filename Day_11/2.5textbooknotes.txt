@@ -1,0 +1,4 @@
+2.5 introduces the relational and logical operators < <= > >= == != && || !
+
+showing us truth tables to help visualise the logical and or not operators
+

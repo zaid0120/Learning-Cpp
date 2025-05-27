@@ -1,0 +1,17 @@
+2.7 is compound assignment operators which simplify the coding of certain statements.
+
+x = x + 12;
+same as
+x += 12;
+
+or
+
+x = x - 100;
+same as 
+x -= 100;
+
+the code is shortened with the compound assignment operators += -=.
+
+var = var op expression;
+same as
+var op= expression;
