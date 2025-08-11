@@ -1,0 +1,4 @@
+this chapter is all about data types long short signed and unsigned and i think the focus is gonna be integer, characters, floating-points, double, bool, wide character, void. 
+
+gonna have code snippets for each of them i think too
+
